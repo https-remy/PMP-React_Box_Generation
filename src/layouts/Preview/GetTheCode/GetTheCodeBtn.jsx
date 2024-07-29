@@ -4,7 +4,7 @@ import CodeResult from "./CodeResult";
 
 export default function GetTheCodeBtn() {
 	const [showCode, setShowCode] = useState(false);
-	console.log("showCode", showCode);
+
 	return (
 		<>
 			<button className="relative z-0 mx-auto shadow-md mt-2 py-1 px-3 text-sm 
