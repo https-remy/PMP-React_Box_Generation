@@ -16,7 +16,7 @@ export default function Settings() {
                 {tabsList.map((tab, index) => (
                     <button
                         key={index}
-                        className={`min-w-[125px] font-bold py-2 px-3 mr-4 rounded-t border-t border-x border-gray-50 ${
+                        className={`min-w-[125px] font-bold py-2 px-3 mr-4 rounded-t border-t border-x border-gray-300 bg-gray-50 ${
                             tabs !== index ? "border-b bg-gray-200 hover:bg-slate-50" : ""
                         }`}
                         onClick={() => setTabs(index)}
