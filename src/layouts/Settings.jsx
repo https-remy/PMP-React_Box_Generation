@@ -3,7 +3,7 @@ import ShadowsSettings from "./ShadowsSettings/ShadowsSettings";
 import { useState } from "react";
 
 export default function Settings() {
-    const [tabs, setTabs] = useState(0);
+    const [tabs, setTabs] = useState(0)
 
     const tabsList = [
         { name: "Shadow", component: <ShadowsSettings /> },
