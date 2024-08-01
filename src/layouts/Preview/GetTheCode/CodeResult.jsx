@@ -34,7 +34,8 @@ export default function CodeResult({closeIt}) {
 				setIsCopied(false);
 			}, 1250)
 		}
-		const textToCopy = isCss ? css : `className="\""${tailwind}"\""`;
+		const textToCopy = isCss ? css : `className="${tailwind}"`;
+		console.log(textToCopy);
 		navigator.clipboard.writeText(textToCopy)
 	}
 
